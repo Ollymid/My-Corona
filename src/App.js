@@ -1,15 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Stats } from './components/Stats';
+import { CountrySelector } from './components/CountrySelector';
+
 import './App.css';
 
 export function App() {
   return (
     <div className="app">
       <header className="app-header">
-        Learn React
+        COVID-19 Tracker
       </header>
+      <h3>Coronavirus Global Total:</h3>
+      <Stats url="https://covid19.mathdro.id/api"></Stats>
+      <CountrySelector></CountrySelector>
 
-      <img src={logo} className="app-logo" alt="logo" />
+      <img src="https://covid19.mathdro.id/api/og" className="app-image" alt="covid-chart" />
     </div>
   );
 }

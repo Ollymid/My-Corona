@@ -5,12 +5,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.app-logo {
-  height: 40vmin;
+.app-image {
+  height: 50vmin;
   pointer-events: none;
+}
+
+.stats-table__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
 }
