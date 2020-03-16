@@ -19,3 +19,29 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
 }
+
+.country-select {
+  max-width: 95%;
+}
+.country-select__selector {
+  text-align: center;
+  text-align-last: center;
+  font-size: calc(10px + 2vmin);
+  max-width: 50%;
+  border: 1px solid white;
+}
+
+.app-footer {
+  font-size: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.ackno {
+  padding: 0.5rem;
+}
+
+.ack-link {
+  color: red;
+}

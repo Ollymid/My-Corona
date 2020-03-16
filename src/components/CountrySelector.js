@@ -11,9 +11,10 @@ export function CountrySelector() {
   if (error) return <p>`Ruh-roh! You have encountered an error: ${error}`</p>;
 
   return (
-    <div  className="mx1">
-      <h2>Currently Showing {selectedCountry}</h2>
+    <div className="country-select">
+      <h3>Currently Showing {selectedCountry}</h3>
       <select
+        className="country-select__selector"
         onChange={e => {
           setSelectedCountry(e.target.value);
         }}
