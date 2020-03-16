@@ -45,3 +45,9 @@
 .ack-link {
   color: red;
 }
+
+@media only screen and (min-width: 660px) {
+  .app-footer {
+    flex-direction: row;
+  }
+}

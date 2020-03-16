@@ -15,8 +15,8 @@ export function App() {
       <CountrySelector></CountrySelector>
       <img src="https://covid19.mathdro.id/api/og" className="app-image" alt="covid-chart" />
       <footer class="app-footer">
-        <span class="ackno">API provided by <a className="ack-link" href="https://github.com/mathdroid/covid-19-api">@mathdroid</a></span>
-        <span class="ackno">This was created in a code-along with the legendary <a className="ack-link" href="https://www.youtube.com/watch?v=B85s0cjlitE">Wes Bos</a></span>
+        <span class="ackno">With many thanks to <a className="ack-link" href="https://github.com/mathdroid/covid-19-api">@mathdroid</a></span>
+        <span class="ackno">and the legendary <a className="ack-link" href="https://www.youtube.com/watch?v=B85s0cjlitE">Wes Bos</a></span>
       </footer>
     </div>
   );
