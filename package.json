@@ -6,7 +6,7 @@
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^13.1.2",
-    "acorn": "^8.1.0",
+    "acorn": "^8.1.1",
     "minimist": "^1.2.5",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
